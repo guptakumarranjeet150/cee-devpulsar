@@ -4,7 +4,7 @@
   "description": "Cloudflare Worker for dual-provider IPFS uploads",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "node init && wrangler dev --port 8787",
+    "dev": "wrangler dev --port 8787",
     "test": "bun test-upload.js",
     "test:load": "bun load-test.js",
     "test:unit": "vitest run",
